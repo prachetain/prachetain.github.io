@@ -1090,3 +1090,23 @@ link:focus,
   margin-bottom: 0.25rem;
   color: #2b2b4f;
 }
+
+.img_slider {
+  width: 200px;
+  height: 200px;
+  animation: scroll 30s linear infinite;  
+}
+
+.slide-track {
+  width: 100%;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-700%)}
+}
